@@ -6,3 +6,6 @@ function login(username, password) {
     return "User logged in";
 }
 
+function getDashboard(userId) {
+    return "Dashboard data for " + userId;
+}
