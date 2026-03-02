@@ -6,3 +6,6 @@ function login(username, password) {
     return "User logged in";
 }
 
+function getProfile(userId) {
+    return "Profile data for " + userId;
+}
