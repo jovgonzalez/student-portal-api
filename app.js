@@ -8,4 +8,6 @@ function login(username, password) {
 
 function getProfile(userId) {
     return "Profile data for " + userId;
+function getDashboard(userId) {
+    return "Dashboard data for " + userId;
 }
